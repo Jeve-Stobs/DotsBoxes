@@ -118,7 +118,7 @@ function acquire(id) {
 	boxes[id] = "full";
 
 	$(".player2").text("You : " + you);
-	$(".player1").text("Computer : " + comp);
+	$(".player1").text("Alfred : " + comp);
 
 	var full = true;
 	for (var i = boxes.length - 1; i >= 0; i--) {
@@ -128,7 +128,7 @@ function acquire(id) {
 		}
 	}
 
-	if (full) alert((you > comp ? "You" : "Computer") + " won");
+	if (full) alert((you > comp ? "You" : "Alfred") + " won");
 }
 
 function addValue(id) {
@@ -147,7 +147,7 @@ function checkValid(t) {
 
 function computer() {
 	turn = false;
-	$("#turn").text("Turn : " + "Computer");
+	$("#turn").text("Turn : " + "Alfred");
 
 	setTimeout(function () {
 		//play
