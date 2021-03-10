@@ -17,16 +17,14 @@ body {
 
 .player1 {
   margin: 0 auto;
-  background-color: #701090;
-  background-repeat: no-repeat;
+  color: #701090;
   font-weight: bolder;
   font-size: 20px;
 }
 
 .player2 {
   margin: 0 auto;
-  background-color: #252934;
-  background-repeat: no-repeat;
+  color: #252934;
   font-weight: bolder;
   font-size: 20px;
 }
