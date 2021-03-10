@@ -107,10 +107,10 @@ function applyEvents() {
 function acquire(id) {
 	var color;
 	if (turn) {
-		color = "salmon";
+		color = "#252934";
 		you++;
 	} else {
-		color = "skyblue";
+		color = "#701090";
 		comp++;
 	}
 
