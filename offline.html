@@ -2,8 +2,78 @@
    <head>
       <title>Dots & Boxes</title>
       <link rel="shortcut icon" type="image/jpg" href="https://apprecs.org/gp/images/app-icons/300/00/com.paresh.connectingdots.jpg"/>
-      <link rel="stylesheet" href="style.css" />
-   </head>
+	   <style>@import url("https://fonts.googleapis.com/css?family=Comfortaa");
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+body {
+  padding: 10px;
+  margin: 0;
+  background-color: #6699cc;
+  background-repeat: no-repeat;
+  text-align: center;
+  font-family: "Comfortaa", cursive;
+  font-size: 25px;
+  font-weight: 900;
+}
+
+.player1 {
+  margin: 0 auto;
+  color: #701090;
+  font-weight: bolder;
+  font-size: 20px;
+}
+
+.player2 {
+  margin: 0 auto;
+  color: #990000;
+  font-weight: bolder;
+  font-size: 20px;
+}
+
+.box {
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  background-color: #6699cc;
+  line-height: 50px;
+}
+
+.dot {
+  position: absolute;
+  height: 15px;
+  width: 15px;
+  border-radius: 100%;
+  background-color: purple;
+  z-index: 1000;
+}
+
+.line {
+  position: absolute;
+  background-color: whitesmoke;
+  cursor: pointer;
+  z-index: 1;
+}
+
+.lineh {
+  height: 5px;
+  width: 50px;
+}
+
+.linev {
+  height: 50px;
+  width: 5px;
+}
+
+.line:hover {
+  background-color: #313131;
+}
+
+.line-active {
+  background-color: #373737;
+}</style>   </head>
    <body>
       <br />
       <br />
